@@ -2,6 +2,7 @@
 description: Generate a daily repository status report summarizing pull requests, issues, and activity for maintainers
 on:
   schedule: daily on weekdays
+  workflow_dispatch:
 permissions:
   contents: read
   issues: read
